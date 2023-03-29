@@ -30,9 +30,6 @@ public class Interval {
             }
         }
         array.forEach(System.out::println);
-        if (array.size() == 1) {
-            return array.get(0).get(1) - array.get(0).get(0);
-        }
         int sum = 0;
         for (int i = 0; i < array.size(); i++) {
             sum += array.get(i).get(1) - array.get(i).get(0);
